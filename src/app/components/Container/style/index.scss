@@ -1,0 +1,17 @@
+@import '../../../style/theme/index';
+
+.container {
+  &.lg {
+    max-width: $lg;
+  }
+  &.xl {
+    max-width: $xl;
+  }
+  &.sm {
+    max-width: $sm;
+  }
+  &.md {
+    max-width: $md;
+  }
+  margin: auto;
+}

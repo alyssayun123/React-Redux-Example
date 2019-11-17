@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+.button-primary {
+  background: #0047ff;
+  color: white;
+}
+.button {
+  padding: 16px 36px;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: transform 0.2s ease-in;
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    transition: transform 0.2s ease-out;
+  }
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 48px 0;
+}
+.button-secondary {
+  color: #63a2ff;
+  background: #e6f5ff;
+
+  margin-right: 16px;
+}
